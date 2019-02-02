@@ -35,11 +35,8 @@ set showcmd
 " Visual autocomplete for command menu
 set wildmenu
 
-" Redraw only when when really needed
-set lazyredraw
-
-" Show a visual line under the cursor's current line
-set cursorline
+" Turns off lazy redraw
+set nolazyredraw
 
 " Show the matching part of the pair for [], {}, and ()
 set showmatch
